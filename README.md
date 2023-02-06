@@ -59,11 +59,7 @@ $ flask run
     - https://flask.palletsprojects.com/en/2.0.x/tutorial/index.html
     - https://www.youtube.com/watch?v=Z1RJmh_OqeA&t=1917s
 
-## Photos: 
-
-<img width="1591" alt="Screen Shot 2021-12-17 at 21 10 11" src="https://user-images.githubusercontent.com/64428362/146627532-743cad57-aee1-4654-b71b-29785afb771b.png">
-
-
-<img width="1591" alt="Screen Shot 2021-12-17 at 21 11 47" src="https://user-images.githubusercontent.com/64428362/146627535-b3fc4df7-149d-4599-a087-44fbe69b1d31.png">
-
-<img width="1489" alt="Screen Shot 2021-12-18 at 00 37 59" src="https://user-images.githubusercontent.com/64428362/146634663-ecb1a5d0-7109-4b49-95a2-f26f0d132f73.png">
+## Screenshots:
+![alt text](https://github.com/Dhruvbam/Live_Weather_App/blob/main/Live_Weather_App/images/wm.jpg)
+![alt text](https://github.com/Dhruvbam/Live_Weather_App/blob/main/Live_Weather_App/images/wm1.jpg)
+![alt text](https://github.com/Dhruvbam/Live_Weather_App/blob/main/Live_Weather_App/images/wm2.jpg)

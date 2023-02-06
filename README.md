@@ -16,7 +16,7 @@ This project is made using python programming language and flask web-framework.
 1. Download this repository to your local machine. 
 
 ```
-$ git clone https://github.com/rohangosavi01/live-weather-application
+$ git clone https://github.com/Dhruvbam/Live_Weather_App
 ```
 
 2. Open this folder in your terminal/cmd prompt and run the following code:

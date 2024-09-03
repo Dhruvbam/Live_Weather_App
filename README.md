@@ -1,5 +1,5 @@
 # Live Weather Viewing Application 
-
+![alt text](https://github.com/Dhruvbam/Live_Weather_App/blob/main/Live_Weather_App/images/wm1.jpg)
 ## About
 
 Welcome to my live weather viewing application !

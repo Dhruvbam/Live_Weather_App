@@ -40,7 +40,7 @@ The Live Weather app is a Python and Flask based application that accesses the O
 - `index.html` / `weather.html` – Dynamic HTML templates
 
 
-## Refrences 
+### Refrences 
 
 - OpenWeather API Documentation
     - https://openweathermap.org/current
@@ -49,9 +49,6 @@ The Live Weather app is a Python and Flask based application that accesses the O
 - Open Layers Maps API Documentation 
     - https://openlayers.org/en/latest/apidoc/
 
-- Python & Flask 
-    - https://flask.palletsprojects.com/en/2.0.x/tutorial/index.html
-    - https://www.youtube.com/watch?v=Z1RJmh_OqeA&t=1917s
 
 ## Screenshots:
 ![alt text](https://github.com/Dhruvbam/Live_Weather_App/blob/main/Live_Weather_App/images/wm.jpg)

@@ -1,52 +1,46 @@
 # Live Weather Viewing Application 
 ![alt text](https://github.com/Dhruvbam/Live_Weather_App/blob/main/Live_Weather_App/images/wm1.jpg)
-## About
 
-Welcome to my live weather viewing application !
-This is a static web-application that connects to OpenWeather API and displays live weather or 30 day forecast of over 200000 cities globally. 
-This project is made using python programming language and flask web-framework. 
+The Live Weather app is a Python and Flask based application that accesses the OpenWeather API to present real-time weather data and 30-day forecasts for over 200,000+ cities worldwide. The project features a dynamic, responsive UI, seamless integration with weather and map APIs, and robust error handling. Users can search by city, view temperatures, icons, friendly quotes, and global maps using OpenLayers. Designed for simple deployment and extensible code, this app demonstrates practical skills in API integration, Python web development, and user-centric design.
 
-## Installations
+## Features & Technical Details
 
-- [Python](https://www.python.org/downloads/) v3.8.0 or greater
-- [Flask](https://flask.palletsprojects.com/en/2.0.x/installation/#install-flask) (Python Version 3.7 or greater)
+- **Global Coverage:** Live weather and 30-day forecasts for over 200,000 cities using OpenWeather API.
+- **Real-Time Data:** Displays max/min temperature, current temp, weather icons, and custom weather quotes.
+- **API Integration:** Combines OpenWeather (weather) and OpenLayers (map) APIs for robust and interactive data visualization.
+- **Responsive UI:** Form-driven landing page enables city search, scale selection, and displays dynamic data.
+- **Error Handling:** Gracefully manages missing/invalid cities, showing user-friendly redirects and info.
+- **Modular Backend:** Built in Python and Flask, with clear separation of authentication, data handling, and view logic (`app.py`, `authentication.py`, `customDictionary.py`).
+- **Frontend Tech:** Dynamic HTML/CSS (Jinja2 templates), user-friendly navigation supporting POST requests for updating weather data.
+- **Learning Outcomes:** Strengthened skills in RESTful API requests, JSON parsing, Python web development, and interactive UI construction.
 
-## Running on your local machine
 
-1. Download this repository to your local machine. 
 
-```
-$ git clone https://github.com/Dhruvbam/Live_Weather_App
-```
+## Quick Setup
 
-2. Open this folder in your terminal/cmd prompt and run the following code:
-```
-$ flask run
-```
-3. You should see a localhost server running, copy this address into any browser to begin.
+**Requirements:**  
+- [Python](https://www.python.org/downloads/) 3.8+
+- [Flask](https://flask.palletsprojects.com/en/2.0.x/installation/#install-flask)
 
-## Set-up 
+**Getting Started:**
+1. Clone the repo:  
+   `git clone https://github.com/Dhruvbam/Live_Weather_App`
+2. Run the app:  
+   `flask run`
+3. Visit the localhost link in your browser.
 
-1. The landing page consists of a form that asks for city and scale details. 
-2. Weather data is displayed after filling the form.
-3. Weather data - Max/Min temp, current temp, freindly icon, weather description.
-4. A quote unique to different weather types is also displayed.
-5. A map is pulled from Open Steet API where as weather data is pulled from Open Weather API 
-6. This is a freindly app that handles all common errors and redirects user to proper webpages. 
-## Descriptions 
+**Usage Highlights:**  
+- Enter a city and choose units – instantly see current weather, forecast, maps, and a weather-based quote.
+- Robust error handling and redirects enhance user experience.
 
-- ```app.py``` : Program entry point
-- ```authentication.py``` : Makes requests to the OpenWeather API and returns json data in Python Dictionary Format.
-- ```customDictionary.py``` :  This module creates a custom dictionary of data for different webpages.
-- ```index.html & weather.html``` : Display dynamic data from form fields using POST Http request method.
+**Key Files:**  
+- `app.py` – Main web app
+- `authentication.py` – API requests
+- `customDictionary.py` – Page data dicts
+- `index.html` / `weather.html` – Dynamic HTML templates
 
-## Refrences and Learning Outcomes
 
-- Learning Outcomes 
-    - Learned more about API requests, how to parse JSON data and manipulate it.
-    - Learned more about HTML, CSS use with Jinja2 tools to parse variables to display dynammic data. 
-    - Learned more about Python Web Application enviornment, HTTP Requests and authentication.
-    - Learned more about Map Data from passing from in HTML and using JavaScript.
+## Refrences 
 
 - OpenWeather API Documentation
     - https://openweathermap.org/current
